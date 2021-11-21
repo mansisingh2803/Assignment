@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,500;1,600&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=M+PLUS+2&family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* navbar styling */
+.navbar{
+    list-style-type: none;
+  margin: 0;
+  padding:30px 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu1 li{
+    display: inline-block;
+    justify-content: space-between;
+}
+.navbar .menu2 li{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.navbar .menu1 li a{
+    display: block;
+    
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 75px;
+    transition: color 0.3s ease;
+}
+.navbar .menu2 li a{
+    display: block;
+    
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 75px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.menu-btn{
+    color:black;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.logo{
+    border-style: inset;
+    font-family: 'Noto Serif', serif;
+
+}
+.logo1{
+    font-size: 25px;
+}
+
+.logo2{
+    font-size: 15px;
+    text-align: center;
+}
+   
+/* service styling */
+
+.services{
+    display: flex;
+    background: url("image1.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+.services .max-width{
+    
+        width: 100%;
+        display: flex;
+      
+}
+.services .max-width .row{
+    margin-right: 0;
+  }
+.services .home-content .text-1{
+    font-size: 65px;
+    font-family: "Irish Grover', cursive" ;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 450px;
+    padding-left: 150px;
+    text-shadow: 1px 1px 2px gainsboro;
+}
+.services .home-content .text-2{
+    font-size: 30px;
+    color: white;
+    font-family: "Irish Grover', cursive";
+    padding-left: 300px;
+    margin: 5px 0;
+}
+.custom-package{
+    justify-content: space-between;
+    padding-top: 100px;
+    text-align: center;
+}
+.custom-package .text-1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+.custom-package .text-2{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.custom-package .button{
+   
+  padding-top: 40px;
+  margin-bottom: 10px;
+
+}
+.custom-package .custom-button1{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 30px ;
+}
+.custom-package .custom-button2{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 30px ;
+}
+
+.specialization, .teams{
+    color:#fff;
+    background:rgb(179, 177, 177);
+    padding-bottom: 40px;
+    
+}
+.specialization .title1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding-top: 10px;
+   
+}
+.specialization .title2{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+   
+}
+
+
+
+.specialization .special-content .card{
+    display: inline-block;
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 150px 25px ;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.specialization .special-content .card:hover{
+    background: crimson;
+}
+.specialization .special-content .card .box{
+    transition: all 0.3s ease;
+}
+.specialization .special-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+
+.specialization .special-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
+.expectation .max-width .title{
+    text-align: center;
+    padding-top: 50px;
+}
+.expectation .expect-content{
+    display:inline-block
+}
+.expectation .expect-content .left{
+    float: left;
+    width: 45%;
+}
+.expectation .expect-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    padding-left: 50px;
+    padding-top: 50px;;
+}
+.expectation .expect-content .right{
+    float: left;
+    width: 55%;
+}
+.expectation .expect-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.list .one{
+    padding-bottom: 30px;
+}
+ .para{
+    font-family: sans-serif;
+    font-size: 15px;}
+
+
+.expectation .expect-content .right p{
+    text-align: justify;
+}
+
+.work{
+    display: flex;
+    background: url("image3.jpg") no-repeat center;
+    height: 40vh;
+   
+    min-height: 250px;
+    background-size: cover;
+    
+   
+}
+.work .title-a{
+    text-align: center;
+    font-family: "Irish Grover', cursive";
+    font-size: 45px;
+    padding-left: 460px;
+    padding-top: 150px;
+}
+.work .title-b{
+    text-align: center;
+    font-family: "Irish Grover', cursive";
+    font-size: 15px;
+    padding-left: 460px;
+
+}
+
+footer{
+    background: #111;
+    padding: 25px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer .Social{
+    
+    
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .Social li{
+    display: inline-block;
+    list-style: none;
+}
+
+footer .Social li img{
+        max-width: 40px;
+        justify-content: space-between;
+        margin:20px;
+    }
